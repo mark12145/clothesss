@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    color: black;
+    background-color: white;
+    padding: 2% 2%;
+    height: 5vh;
+    box-shadow: 5px 10px 21px rgb(255, 255, 255);
+
+}
+.social{
+    list-style-type: none;
+    display: flex;
+    gap: 1.5%;
+    font-size: 1.5em;
+    justify-content: right;
+    position: relative;
+    bottom: 5vh;
+}
+.social a{
+    text-decoration: none;
+    color: black;
+}
+.social a:hover{
+    font-size: 1.1em;
+    color: brown;
+}
+.body{
+    background-color: black;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.choose_your_gender{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.choose_your_gender button{
+    width: 20vw;
+    height: 5vh;
+    font-size:1.6em;
+    margin-top: 10vh;
+    border-radius: 20px;
+}
+.choose_your_gender button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+.photoimgggggloggggg{
+    width: 100%;
+    height: auto;
+}
+
+
+
+@media (max-width:600px) {
+    body{
+        font-size: 0.5em;
+    }
+    .social{
+        display: block;
+        justify-items: center;
+        margin-top: 7vh;
+    }
+    .logo{
+        text-align: center;
+    }
+    .navbar{
+        height: 13vh;
+    }
+}
+
+.all-mens-from-six-mens{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    padding: 2%;
+    gap: 19%;  
+}
+.all-mens-from-six-mens button{
+    border: none;
+    cursor: pointer;  
+}
+.third-man-from-six-ens{
+    width: 125%;
+}
+.fourth-man-from-six-mens{
+    position: relative;
+    top: 20%;
+}
+.fifth-man-from-six-mens{
+    position: relative;
+    top: 20%;
+}
+.six-man-from-six-mens{
+    position: relative;
+    top: 20%;
+}
+.---price---__---price---{
+    display: block;
+    text-align: center;
+    padding: 5%;
+    list-style: none;
+}
+.contactwithustobuy{
+    width: 20%;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 50px;
+}
+.contactwithustobuy:hover{
+    color: red;
+    font-size: 1.6em;
+    cursor: pointer;
+} 
+.man-to-buy-this-t-shirt{
+    width: 20%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    margin-left: 41%;
+}
+@media (max-width:705px) {
+    .contactwithustobuy{
+        font-size: 1em;
+    }
+}
+.contactwithussssssssssssss{
+    display: block;
+    padding: 10%;
+    text-align: center;
+    font-size: 1.3em;
+}
+.womans-photos-from-six-womans-womans{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15%;
+    padding: 2%;
+    justify-content: center;
+    list-style: none;
+}
+.womans-photos-from-six-womans-womans button{
+    border: none;
+    cursor: pointer;
+}
+.fifth-woman-from-six-womansfifth-woman-from-six-womans{
+    width: 110%;
+}
+.boysssssssssimges button{
+border: none;
+cursor: pointer;
+}
+.boysssssssssimges{
+    display: flex;
+    gap: 16%;
+    padding: 2%;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.secontboyimggggggg{
+    width: 74%;
+}
+.firstboyyimgeeeeeeee{
+    width: 80%;
+}
+.fourthhhhhhboyimgeeeeee{
+    position: relative;
+    right: 35%;
+}
+.sixxxxxxboyimgggggg{
+    position: relative;
+    left: 35%;
+}
+.girlssssssssssssssssss button{
+    border: none;
+    cursor: pointer;
+}
+.girlssssssssssssssssss{
+    display: flex;
+    gap: 20%;
+    padding: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
